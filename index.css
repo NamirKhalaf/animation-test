@@ -1,0 +1,106 @@
+body{
+background-color: rgb(10, 252, 252);
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  
+}
+
+p {
+    text-indent: 50px;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: normal;
+    color: rgba(14, 14, 15, 0.774);
+}
+.fa-heart {
+    color: wheat;
+}
+
+.element-1 {
+
+  text-align: center;
+  text-shadow: 2px 2px rgb(219, 90, 166);
+  font-size: 60px;
+  font-weight: 300px;
+  text-transform: uppercase;
+  background-color: rgb(238, 238, 172);
+  animation-duration: 4s;
+  animation-name: element-1;
+  animation: element-1 5s linear 3s infinite alternate;
+
+}
+@keyframes element-1 {
+from {background-color: rgb(238, 238, 172);}
+to {background-color: black;}
+}
+
+h2 {
+  text-align: center;
+  color: blueviolet;
+  font-family: 'Reggae One', cursive;
+}
+.element {
+    height: 30px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: red;
+    animation-name:element;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+  }
+  
+  @keyframes element {
+    0% {
+      transform: scale(.3);
+      background-color: rgb(235, 21, 21);
+      border-radius: 100%;
+    }
+    50% {
+      background-color: rgb(207, 139, 12);
+    }
+    100% {
+      transform: scale(1.5);
+      background-color: rgb(194, 194, 15);
+    }
+    
+  }
+
+
+
+  .element-2 {
+    height: 30px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: red;
+    animation-name: element-2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+  
+  }
+  @keyframes element-2 {
+    
+   0% {background-color: red;}
+   15% {background-attachment:yellow;}
+   25% {background-color:green;}
+   35% {background-color:white;}
+   50% {background-color:blue;}
+   65% {background-color:purple;}
+   75% {background-color:pink; }
+   85% {background-color:orangered; }
+   100% {background-color:greenyellow; }
+  }
+
+
